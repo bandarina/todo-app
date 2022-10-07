@@ -1,0 +1,27 @@
+.Menu{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: stretch;
+    z-index: 999;
+}
+.Menu p{
+    font-size: 0.9rem;
+}
+.Menu img{
+    height: 2rem;
+}
+.menu-item{
+    padding: 0.5rem;
+}
+a{
+    flex-grow: 1;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+.navActive{
+    background-color: gray;
+}

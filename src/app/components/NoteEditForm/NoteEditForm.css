@@ -1,0 +1,46 @@
+.NoteEditForm{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+}
+input[type=text]{
+    width: 100%;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.NoteEditForm hr{
+    width: 100%;
+}
+.form-actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.NoteEditForm p{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.NoteEditForm img{
+    height: 2.5rem;
+}
+.cancelButton img{
+    filter: invert(10%) sepia(83%) saturate(5887%) hue-rotate(358deg) brightness(97%) contrast(114%);
+}
+.saveButton img{
+    filter: invert(18%) sepia(77%) saturate(3682%) hue-rotate(112deg) brightness(96%) contrast(109%);
+}

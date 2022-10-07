@@ -1,0 +1,47 @@
+.Note{
+    padding: 1rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+}
+
+.note-title{
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    
+}
+.complete-button{
+    float: right;
+    margin-top: -1.8rem;
+    height: 2.1rem;
+}
+.add-note-button{
+    position: fixed;
+    z-index: 5;
+    height: 4rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    filter: invert(55%) sepia(87%) saturate(730%) hue-rotate(1deg) brightness(104%) contrast(103%);
+    
+}
+.note-text{
+    text-align: left;
+    margin-bottom: 3rem;
+    white-space: pre-line;
+}
+
+.note-actions{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.note-actions-status{
+    flex-grow: 1;
+    text-align: left;
+}
+.note-actions-buttons{
+    flex-grow: 0.5;
+    display: flex;
+    justify-content: space-around;
+}

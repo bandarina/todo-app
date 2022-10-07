@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    height: 10vh;
+    width: 100%;
+    align-items: center;
+    background-color: #EBECF0;
+    box-shadow: 0 3px 5px #949494;
+    margin-bottom: 2rem;
+}
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.nav-title-light:link, .nav-title-light:visited{
+    color: black;
+    text-decoration: none;
+}
+.nav-title-dark:link, .nav-title-dark:visited{
+    text-decoration: none;
+    color: white;
+}
+.nav-wrapper{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 1.7rem;
+    width: auto;
+}
